@@ -24,79 +24,6 @@
 
 .header-logo {
     width: 35%;
-}
-
-.header-social-media {
-    width: 35%;
-    margin-top: 25px;
-}
-
-.header-logo img {
-    max-width: 100%;
-}
-
-.header-social-media nav ul {
-    list-style: none;
-    display: flex;
-    float: right;
-}
-
-.header-social-media nav ul li a {
-    text-decoration: none;
-    color: wheat;
-    margin-left: 19px;
-    font-size: 20px;
-}
-
-
-li {}
-
-.phone-number li a {
-    color: wheat;
-    text-decoration: none;
-    text-align: right;
-}
-
-.phone-number li {
-    list-style: none;
-    text-align: right;
-}
-
-.phone-number {
-    margin-top: 20px;
-}
-
-.header-social-media>nav>ul>li {
-    text-align: right;
-}
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header-main {
-    width: auto;
-    height: auto;
-    background-image: url(images/header-bg.jpeg);
-    background-repeat: no-repeat;
-    margin: auto;
-    background-size: cover;
-    : ;
-}
-
-.heder-main-box {
-    width: 1200px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-
-.header-logo {
-    width: 35%;
     align-items: center;
     margin-top: 18px;
 }
@@ -146,6 +73,47 @@ li {}
 
 
 
+.dropdown-menu-box {
+    width: auto;
+    height: auto;
+    background: #132634;
+}
+
+.dropdown-menu {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    passi
+}
+
+.dropdown-menu>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.dropdown-menu nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-menu nav ul li {
+    position: relative;
+}
+
+
+.dropdown-menu>nav>ul>li>ul {
+    position: absolute;
+}
+
+
+ul.sub-menu {
+    display: none;
+    list-style: none;
+ }
 
 
 
