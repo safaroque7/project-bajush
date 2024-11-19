@@ -67,7 +67,7 @@
     margin-bottom: 13px;
 }
 
-.header-social-media>nav>ul>li {
+.header-social-media nav ul li {
     text-align: right;
 }
 
@@ -86,7 +86,7 @@
     passi
 }
 
-.dropdown-menu>nav>ul {
+.dropdown-menu nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -108,11 +108,12 @@
     color: gold;
     display: block;
     list-style: none;
+    width:max-content
     background-color: #132634;
 }
 
 
-.dropdown-menu>nav>ul>li>ul {
+.dropdown-menu nav ul li ul {
     position: absolute;
 }
 
@@ -134,21 +135,120 @@ ul.sub-menu {
  }
 
 
- .bx-wrapper,
  .slider-box {
-    width: 100%;
+    width: auto;
     margin: auto;
     height: auto;
+}
+
+.sliderimagetext{
+    position: relative;
+
 }
 
 .bx-wrapper,
 .slidermain {
     height: auto;
     margin: auto;
+    width: auto;
+}
+
+.slidertext h1 {
+    text-align: center;
+    font-size: 300px !important; 
+    margin: 10px;     
+}
+
+.slidertext {
+    position: absolute;
+    bottom: 50px;
+    left: 430px;
+    color: wheat;
+    background-color: rgba(0,0,0, .5);
+    width: 100%;
+}
+
+.bx-wrapper,
+.slidermain img {
     width: 100%;
 }
 
 
+
+.featured-main {
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-image: url(images/body-bg.jpg);
+}
+
+
+.featured-image-text-main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-image-text {
+    width: 22%;
+    height: auto;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    background: #b9a5a5;
+}
+
+.featured-image img {
+    max-width: 100%;
+}
+
+.featured-image {
+    width: 100%;
+    height: 269px;
+}
+
+
+.featured-text {
+    width: 1200px;
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.featured-text h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.featured-text-part {
+    position: absolute;
+    bottom: 22px;
+    background-color: rgba(0,0,0, .5);
+    width: 100%;
+    text-align: left;
+    font-size: 10px;
+    color: white;
+    padding-left: 13px;
+    padding-bottom: 8px;
+}
+
+
+.featured-text-part .read-more {
+    text-decoration: none;
+    font-size: 30px;
+    color: wheat;
+    padding-top: 15px;
+}
+
+
+
+
+.featured-text-part h2 {
+    margin-bottom: 22px;
+}
 
 
 
