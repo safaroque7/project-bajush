@@ -161,8 +161,8 @@ ul.sub-menu {
 
 .slidertext {
     position: absolute;
-    bottom: 50px;
-    left: 430px;
+    bottom: 0px;
+    left: 0;
     color: wheat;
     background-color: rgba(0,0,0, .5);
     width: 100%;
