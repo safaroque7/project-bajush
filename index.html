@@ -9,6 +9,12 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -83,6 +89,18 @@
     </div>
     <!--dropdown-menu-box start-->
 
+
+    <!--slider box start-->
+    <div class="slider-box">
+        <div class="slidermain">
+            <div><img src="images/bajus-images-03.JPG" title="জুয়েলারি শিল্পের উন্নয়নে প্রধানমন্ত্রীর হস্তক্ষেপ চায় বাজুস" /></div>
+            <div><img src="images/bajus-images-04.jpg" title="দেশের উন্নয়নে জুয়েলারি খাতের বিকল্প নেই : সায়েম সোবহান আনভীর" /></div>
+            <div><img src="images/bajus-images-01.JPG" title="নিরাপদ বিনিয়োগের খাত স্বর্ণ : বাজুস প্রেসিডেন্ট" /></div>
+        </div>
+    </div>
+
+    <!--slider box start-->
+
     
 
 
@@ -131,6 +149,18 @@
             </div>
         </div>        
     </div>
-    <!--footer-main end-->  
+    <!--footer-main end--> 
+
+
+    <script>
+          $(function(){
+                $('.slidermain').bxSlider({
+                mode: 'horizontal',
+                captions: true,
+                slideWidth: 600,
+                auto: true
+                });
+            });
+    </script>
 </body>
 </html>

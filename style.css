@@ -104,10 +104,28 @@
     position: relative;
 }
 
+.dropdown-menu nav ul li:hover .sub-menu {
+    color: gold;
+    display: block;
+    list-style: none;
+    background-color: #132634;
+}
+
 
 .dropdown-menu>nav>ul>li>ul {
     position: absolute;
 }
+
+ul.sub-menu li {
+    width: max-content;
+}
+
+ul.sub-menu li {
+    width: max-content;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 
 ul.sub-menu {
@@ -116,8 +134,19 @@ ul.sub-menu {
  }
 
 
+ .bx-wrapper,
+ .slider-box {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
 
-
+.bx-wrapper,
+.slidermain {
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
 
 
 
